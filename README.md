@@ -12,7 +12,7 @@
 <p/>
 
 ## Getting Started
-1. **Integrate Example Script**: Integrating the folllowing script into a Shiny application. While `ggbiplot` is recommended for creating biplots in PCA, feel free to explore and use other packages suitable for PCA and CA if necessary.
+1. **Integrate Example Script**: Integrating the following script into a Shiny application. While `ggbiplot` is recommended for creating biplots in PCA, feel free to explore and use other packages suitable for PCA and CA if necessary.
 
 ```R
 data(iris)
@@ -41,7 +41,7 @@ devtools::install_github("vqv/ggbiplot")
      <img src="/images/shinyapp_on_rstudio.png" width="70%" height="70%" >
      <p/>   
  
-   - Please organize your Shiny application using the following folder structure, replace `110753xxx` with your actual student number.
+   - Please organize your Shiny application using the following folder structure. Replace `110753xxx` with your actual student number.
 ```
 110753xxx
    |-- 110753xxx.R
@@ -63,8 +63,8 @@ runApp("110753xxx")
 
 ## Grading Criteria: Peer Evaluation
 
-###  80 points: Base Tasks
-- **20 points** Basic Information Display:
+###  90 points: Base Tasks
+- **30 points** Basic Information Display:
   - Display the following on the application's main page: `name`, `student number`.
   - Input data
 - **30 points** PCA Analysis Web Application:
@@ -72,10 +72,10 @@ runApp("110753xxx")
 - **30 points** CA Analysis Web Application:
   - Develop a Shiny interactive web application to display CA for the Iris dataset.
 
-### 20 points: Subjective Criteria
-- **4 points** Aesthetics 🌷: Visually appealing interface.
-- **4 points** Interactivity 🖥️: User-friendly and responsive interaction design.
-- **4 points** Content Richness 📖: In-depth information and well-organized content.
+### 10 points: Subjective Criteria
+- **2 points** Aesthetics 🌷: Visually appealing interface.
+- **2 points** Interactivity 🖥️: User-friendly and responsive interaction design.
+- **2 points** Content Richness 📖: In-depth information and well-organized content.
 - **up to 8 points** Additional Features: Each feature (listed below) is worth 4 points:
   - Detailed PCA results (e.g., variance explained)
   - ...
@@ -87,16 +87,16 @@ runApp("110753xxx")
 
 #### Submission Requirements
 - **-2 points** Missing ShinyApp Link and Student ID: Ensure your ShinyApp link and student ID are prominently displayed at the top of your `Readme.md`. A deduction of 2 points will apply if this information is missing.
-- **-2 points** Inaccessible ShinyApp Link: Your project must be published on [shinyapps.io](https://www.shinyapps.io/) with a public link that is accessible. If the link is not accessible, 2 points will be deducted.
+- **-2 points** Inaccessible ShinyApp Link: Your project must be published on [shinyapps.io](https://www.shinyapps.io/) with an accessible public link. If the link is not accessible, 2 points will be deducted.
 - **-2 points** Non-Compliant Title Format: The title of your ShinyApp must adhere to the format `NCCU_DS2024_hw4_studentID`. Failure to follow this format will result in a 2-point deduction.
 
-Ensure all required elements are correctly implemented to avoid these penalties.
+Please make sure all required elements are correctly implemented to avoid these penalties.
 
 ## Important Notes
 - **R Version**: Ensure you use R version 4 for this assignment.
 - **No Makeup Assignments**: Late submissions will not be accepted.
 - **Peer Evaluation Process**:
-  - Each student's project will be evaluated by 5-6 randomly selected peers.
+  - 5-6 randomly selected peers will evaluate each student's project.
   - The final score for each project will be the average of these evaluations.
   - Students are required to participate in evaluating others' projects; failure to do so will result in point deductions.
   - Peer evaluations will commence one week after the assignment due date.
