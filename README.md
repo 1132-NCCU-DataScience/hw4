@@ -76,7 +76,7 @@ runApp("110753xxx")
 - **2 points** Aesthetics 🌷: Visually appealing interface.
 - **2 points** Interactivity 🖥️: User-friendly and responsive interaction design.
 - **2 points** Content Richness 📖: In-depth information and well-organized content.
-- **up to 8 points** Additional Features: Each feature (listed below) is worth 4 points:
+- **up to 4 points** Additional Features: Each feature (listed below) is worth 2 points:
   - Detailed PCA results (e.g., variance explained)
   - ...
 
